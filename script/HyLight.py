@@ -18,7 +18,7 @@ __date__ = 'May, 2022'
 usage = """Haplotype-aware de novo assembly of metagenome from hybrid sequencing data (long reads, short reads)"""
 
 def main():
-    parser = ArgumentParser(prog='python HyLight.py', description=usage, epilog='Built by: {}'.
+    parser = ArgumentParser(prog='python CrossHyLight.py', description=usage, epilog='Built by: {}'.
                             format(__author__), formatter_class=ArgumentDefaultsHelpFormatter)
     parser.add_argument('-s', '--short_reads', dest='short_reads', type=str, required=False,
                         help="input short reads file in FASTQ format")
